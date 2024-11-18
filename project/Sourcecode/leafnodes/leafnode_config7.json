@@ -1,0 +1,10 @@
+{
+  "id": "LN7",
+  "address": "127.0.0.1",
+  "port": 9007,
+  "super_peer": "SP7",
+  "enable_push": true,
+  "enable_pull": false,
+  "TTR": 300,
+  "is_query_node": false
+}

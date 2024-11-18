@@ -1,0 +1,10 @@
+{
+  "id": "LN4",
+  "address": "127.0.0.1",
+  "port": 9004,
+  "super_peer": "SP4",
+  "enable_push": true,
+  "enable_pull": false,
+  "TTR": 300,
+  "is_query_node": false
+}

@@ -1,0 +1,37 @@
+PS C:\Users\dattu\p2p-file-sharing\project> cd superpeers
+PS C:\Users\dattu\p2p-file-sharing\project\superpeers> .\superpeer.exe -config="superpeer_config1.json"
+>> 
+2024/11/12 19:31:58 Super-Peer SP1: Listening on 127.0.0.1:8001
+2024/11/12 19:31:58 Sent message: {peer_id superpeer SP1}
+2024/11/12 19:31:58 Super-Peer SP1: Connected to neighbor SuperPeer SP2 at 127.0.0.1:8002
+2024/11/12 19:31:58 Sent message: {peer_id superpeer SP1}
+2024/11/12 19:31:58 Super-Peer SP1: Connected to neighbor SuperPeer SP10 at 127.0.0.1:8010
+Enter 'modify <filename>' to simulate a file modification:
+modify file1.txt
+2024/11/12 19:32:53 Sent message: {invalidation ec5d27b2-a89a-4b0b-8c1a-20bb32f0a9b4 SP1 file1.txt 2}
+2024/11/12 19:32:53 Super-Peer SP1: Sent INVALIDATION for 'file1.txt' to LeafNode LN1
+2024/11/12 19:32:53 Sent message: {invalidation ec5d27b2-a89a-4b0b-8c1a-20bb32f0a9b4 SP1 file1.txt 2}
+2024/11/12 19:32:53 Super-Peer SP1: Sent INVALIDATION for 'file1.txt' to SuperPeer SP2
+2024/11/12 19:32:53 Sent message: {invalidation ec5d27b2-a89a-4b0b-8c1a-20bb32f0a9b4 SP1 file1.txt 2}
+2024/11/12 19:32:53 Super-Peer SP1: Sent INVALIDATION for 'file1.txt' to SuperPeer SP10
+2024/11/12 19:32:53 Super-Peer SP1: Simulated modification of file 'file1.txt' to version 2
+2024/11/12 19:33:04 Super-Peer SP1: Received message from LeafNode LN1: map[file_name:file1.txt message_id:88de5635-7852-4f1d-9bc1-bac5a06ab069 message_type:refresh_request]
+2024/11/12 19:33:04 Super-Peer SP1: Processing message_type 'refresh_request' from LeafNode LN1
+2024/11/12 19:33:04 Super-Peer SP1: Handling RefreshRequest for 'file1.txt' (MessageID: 88de5635-7852-4f1d-9bc1-bac5a06ab069)
+2024/11/12 19:33:04 Super-Peer SP1: Attempting to read file at path './shared_files/SP1/owned/file1.txt'
+2024/11/12 19:33:04 Super-Peer SP1: Successfully read file 'file1.txt' for refresh
+2024/11/12 19:33:04 Sent message: {refresh_response 88de5635-7852-4f1d-9bc1-bac5a06ab069 file1.txt [84 104 105 115 32 105 115 32 116 104 101 32 117 112 100 97 116 101 100 32 99 111 110 116 101 110 116 32 111 102 32 102 105 108 101 49 46 116 120 116 32 97 116 32 118 101 114 115 105 111 110 32 50 46] 2 2024-11-12T19:32:53-06:00}
+2024/11/12 19:33:04 Super-Peer SP1: Sent RefreshResponse for 'file1.txt' to LeafNode
+
+2024/11/12 19:32:33 leafnode.go:230: Leaf-Node LN1: Received message_type 'peer_id' from SuperPeer
+2024/11/12 19:32:33 leafnode.go:263: Leaf-Node LN1: Unknown message_type 'peer_id' from SuperPeer
+2024/11/12 19:32:53 leafnode.go:230: Leaf-Node LN1: Received message_type 'invalidation' from SuperPeer
+2024/11/12 19:32:53 leafnode.go:281: Leaf-Node LN1: Received INVALIDATION for 'file1.txt' from Origin Server SP1 (Version: 2)
+*** ALERT: The file 'file1.txt' has been invalidated and is marked as INVALID in your cache. ***
+refresh file1.txt
+2024/11/12 19:33:04 messages.go:106: Sent message: {refresh_request 88de5635-7852-4f1d-9bc1-bac5a06ab069 file1.txt}
+2024/11/12 19:33:04 leafnode.go:422: Leaf-Node LN1: Sent RefreshRequest for 'file1.txt' (MessageID: 88de5635-7852-4f1d-9bc1-bac5a06ab069)
+2024/11/12 19:33:04 leafnode.go:230: Leaf-Node LN1: Received message_type 'refresh_response' from SuperPeer
+2024/11/12 19:33:04 leafnode.go:430: Leaf-Node LN1: Received RefreshResponse for 'file1.txt'
+2024/11/12 19:33:04 leafnode.go:478: Leaf-Node LN1: Successfully refreshed file 'file1.txt' to version 2
+*** INFO: The file 'file1.txt' has been refreshed and is now valid. ***

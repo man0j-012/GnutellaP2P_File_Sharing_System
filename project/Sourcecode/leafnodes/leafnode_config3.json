@@ -1,0 +1,10 @@
+{
+  "id": "LN3",
+  "address": "127.0.0.1",
+  "port": 9003,
+  "super_peer": "SP1",
+  "enable_push": true,
+  "enable_pull": true,
+  "TTR": 300,
+  "is_query_node": false
+}

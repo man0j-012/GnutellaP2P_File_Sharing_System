@@ -1,0 +1,5 @@
+Total Queries,Invalid Queries,Percentage of Invalid Queries,TTR (seconds)
+200,112,56.0,30
+200,102,51.0,60
+200,98,49.0,120
+200,103,51.5,180

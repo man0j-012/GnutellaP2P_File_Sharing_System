@@ -1,0 +1,9 @@
+{
+  "id": "SP9",
+  "address": "127.0.0.1",
+  "port": 8009,
+  "neighbors": ["SP8", "SP10"],
+  "leaf_nodes": ["LN10"],
+  "enable_push": true,
+  "enable_pull": true
+}
