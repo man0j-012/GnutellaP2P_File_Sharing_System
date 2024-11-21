@@ -149,6 +149,6 @@ Duplicate File Registrations: The same file might be registered multiple times i
 Network Partitioning: If connections between super-peers are severed, queries may not propagate to all parts of the network.
 
 Future Improvements
-Improved Fault Tolerance: Implement enhanced fault-tolerance mechanisms to handle node failures and network partitioning.
+Improved Fault Tolerance: Implement enhanced fault-tolerance mechanisms for node failures and network partitioning.
 Blockchain-Based Security: Consider blockchain integration for secure file registration and authentication.
 Optimized Query Routing: Develop more efficient routing protocols to reduce response times, especially under high concurrency.
