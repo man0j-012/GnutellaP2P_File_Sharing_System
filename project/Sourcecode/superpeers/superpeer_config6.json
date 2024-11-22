@@ -1,9 +1,0 @@
-{
-  "id": "SP6",
-  "address": "127.0.0.1",
-  "port": 8006,
-  "neighbors": ["SP5", "SP7"],
-  "leaf_nodes": ["LN7"],
-  "enable_push": true,
-  "enable_pull": true
-}
