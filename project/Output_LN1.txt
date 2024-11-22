@@ -1,0 +1,19 @@
+Starting Leaf-Node LN1
+2024/10/27 15:13:30 Leaf-Node LN1 discovered 12 files
+2024/10/27 15:13:30 Leaf-Node LN1 starting file server at 127.0.0.1:9000
+2024/10/27 15:13:30 Leaf-Node LN1 connected to Super-Peer at 127.0.0.1:8000
+
+Enter file name to search (or 'exit' to quit): file12.txt
+2024/10/27 15:15:12 Leaf-Node LN1 sent file query for 'file12.txt' with MessageID LN1-ad97ce08-8ff4-4f71-9eab-63cc1c5c2576   
+Issued Query: Looking for file 'file12.txt' with MessageID LN1-ad97ce08-8ff4-4f71-9eab-63cc1c5c2576
+
+Enter file name to search (or 'exit' to quit): 2024/10/27 15:15:12 Response time for MessageID LN1-ad97ce08-8ff4-4f71-9eab-63cc1c5c2576: 507.5µs
+file12.txt
+2024/10/27 15:15:22 Leaf-Node LN1 sent file query for 'file12.txt' with MessageID LN1-0a1c1cae-60ef-4eb2-b323-e3e99972d884   
+Issued Query: Looking for file 'file12.txt' with MessageID LN1-0a1c1cae-60ef-4eb2-b323-e3e99972d884
+
+Query Hit: File 'file12.txt' is available at Leaf-Node LN2 (127.0.0.1:9001)
+2024/10/27 15:15:22 Response time for MessageID LN1-0a1c1cae-60ef-4eb2-b323-e3e99972d884: 4.8111ms
+Do you want to download this file? (yes/no): yes
+2024/10/27 15:15:26 Downloading file from http://127.0.0.1:9001/file12.txt
+2024/10/27 15:15:26 File 'file12.txt' already exists. Skipping download.

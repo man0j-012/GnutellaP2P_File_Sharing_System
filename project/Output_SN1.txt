@@ -1,0 +1,247 @@
+2024/04/27 15:13:44 Super-Peer SP1 listening on 127.0.0.1:8000
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP2
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP3
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP4
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP5
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP6
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP7
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP8
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP9
+2024/04/27 15:13:44 Super-Peer SP1 handling neighbor connection with Super-Peer SP10
+2024/04/27 15:13:44 Super-Peer SP1 accepted connection from Leaf-Node LN1
+2024/10/27 15:13:44 Super-Peer SP2 accepted connection from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 handling connection with Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file10.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file11.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file12.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file13.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file14.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file15.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file16.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file17.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file18.txt' from Leaf-Node LN3
+2024/10/27 15:13:44 Super-Peer SP2 registered file 'file19.txt' from Leaf-Node LN3
+2024/10/27 15:13:53 Super-Peer SP2 accepted connection from Leaf-Node LN4
+2024/10/27 15:13:53 Super-Peer SP2 handling connection with Leaf-Node LN4
+
+2024/10/27 15:14:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:14:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:14:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP10
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP3
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP5
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP6
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP8
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP1
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP4
+2024/10/27 15:15:12 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP7
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:12 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:15:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP4
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP7
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP8
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP9
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP3
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP5
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP6
+2024/10/27 15:15:22 Super-Peer SP2 forwarding query for 'file12.txt' to neighbor Super-Peer SP10
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:15:22 Super-Peer SP2 received FileQueryMessage for 'file12.txt' from LN1
+2024/10/27 15:16:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:16:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:16:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:17:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:17:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:18:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:18:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:19:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:19:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:20:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:20:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:21:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:21:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:22:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:22:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:23:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:23:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:24:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:24:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:32:40   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:32:40   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:33:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:33:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:34:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:34:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:35:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:35:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:36:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:36:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13 Super-Peer SP2 FileIndex Status:
+2024/10/27 15:37:13   File: 'file11.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file13.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file14.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file19.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file18.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file10.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file12.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file15.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file16.txt' -> Leaf-Nodes: [LN3]
+2024/10/27 15:37:13   File: 'file17.txt' -> Leaf-Nodes: [LN3]

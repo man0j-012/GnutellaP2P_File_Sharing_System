@@ -1,0 +1,12 @@
+Client Number,Average Response Time (ms),Total Hits
+Client 1,0.73,400
+Client 2,0.5,800
+Client 3,0.64,1200
+Client 4,0.43,1400
+Client 5,0.39,1600
+Client 6,0.48,1800
+Client 7,0.46,2000
+Client 8,0.48,2000
+Client 9,0.54,2000
+Client 10,0.41,2000
+Overall Average,0.51,15200
